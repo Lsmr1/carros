@@ -14,24 +14,33 @@
     --white: #fff;
 }
 
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background: var(--gray);
+    padding: 5.5rem 1.5rem;
+}
+
 h2 {
     font-family: 'Big Shoulders Display', sans-serif;
     text-transform: uppercase;
-    color:  var(--white);
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    color:  var(--gray);
+    margin-block: 1.875rem;
 }
 
 p {
     font-family: 'Lexend Deca', sans-serif;
-    color: var(--transparent-w  hite);
     font-size: 0.9375rem;
-    margin-bottom: 1.5rem;
+    color: var(--transparent-white);
+    margin-bottom: 1.875rem;
 }
 
 a {
     font-family: 'Lexend Deca', sans-serif;
-    background: var(--gray);
-    padding: 5.5rem 1.5rem;
+}
+
+section {
+    padding: 3rem;
 }
 
 .card {
@@ -39,13 +48,13 @@ a {
 }
 
 .sedans {
-    background: var(---orange) ;
+    background: var(--orange);
 }
 
 .suvs {
     background: var(--cyan);
 }
 
-.luxury {
+.luxuosos {
     background: var(--dark-cyan);
 }
